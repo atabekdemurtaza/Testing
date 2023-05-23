@@ -77,7 +77,7 @@ def post_detail(request,year, month, day, post):
 
 
 def post_share(request, post_id):
-    # Изввлечь пост по идентификатору id
+    # Извлечь пост по идентификатору id
     post = get_object_or_404(
         klass=Post,
         id=post_id,
